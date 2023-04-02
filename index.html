@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Yalla Digital Tunisie</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header-container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>Y</span>alla <span>D</span>igital <span>T</span>unisie</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Accueil</a></li>
+            <li><a href="#about" data-after="About">A Propos</a></li>
+            <li><a href="#services" data-after="Service">Services</a></li>
+            <li><a href="#contact" data-after="Contact">Contacts</a></li>
+            <li><a href="#login" data-after="Login">Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>BEST<span></span></h1>
+        <h1>PLACE TO GET <span></span></h1>
+        <h1>CREATIVE<span></span></h1>
+        <a href="#login" type="button" class="cta">Commencer içi</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Serv<span>i</span>ces</h1>
+        <h2>Nos services</h2>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="./img/media.png" /></div>
+          <h2>Gestion des Réseaux Sociaux</h2>
+          <p>La gestion des réseaux sociaux est un processus qui comprend la création de contenu, la planification de sa publication, l'élaboration d'une stratégie,</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="./img/shooting.png" /></div>
+          <h2>Shooting Professionnel</h2>
+          <p>une séance photo et surtout une séance au cours de laquelle un photographe professionnel prend des photos de quelqu'un.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="./img/Graphic.png" /></div>
+          <h2>Design Graphique</h2>
+          <p>C'est un ensemble de techniques de communication visuelle et verbale visant à transmettre un message ciblé, en utilisant une panoplie.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="./img/web.png" /></div>
+          <h2>Développement Web</h2>
+          <p>Le développement Web est le travail impliqué dans le développement d'un site Web pour Internet ou un intranet.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="./img/SEO.png" /></div>
+          <h2>Référencement SEO & SEA</h2>
+          <p>Il s'agit du processus consistant à faire de la publicité directement sur Google et d'autres moteurs de recherche similaires.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="./img/content.png" /></div>
+          <h2>Développement & Création de contenu</h2>
+          <p>Le développement de contenu est le processus qui consiste à déterminer les renseignements répondant aux besoins des utilisateurs.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="./img/coaching.png" /></div>
+          <h2>Consulting & Coaching</h2>
+          <p>Un coach est expert en accompagnement de personnes en train de franchir un cap alors que le consultant est un spécialiste du métier de son client ainsi que de ses problématiques.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="./img/events.png" /></div>
+          <h2>Organisation & Couverture d'évenements</h2>
+          <p>L'organisateur d'événements est le chef d'orchestre qui s'occupe de la conception d'un événement de A à Z.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="./img/video_prod.png" /></div>
+          <h2>Vidéo Production</h2>
+          <p>La production vidéo est le processus de production de contenu vidéo pour la vidéo. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Login Section -->
+  <section id="login">
+      <div class="projects-header">
+        <h1 class="section-title">Log <span>In</span></h1>
+      </div>
+      <div id='login-form'class='login-page'>
+        <div class="form-box">
+          <div class='button-box'>
+            <div id='btn'></div>
+             <button type='button'onclick='login()'class='toggle-btn'>LogIn</button>
+              <button type='button'onclick='register()'class='toggle-btn'>Register</button>   
+          </div>
+          <form id='login' class='input-group-login'>
+            <input type='text'class='input-field'placeholder='Enter your Email' required >
+            <input type='password'class='input-field'placeholder='Enter Password' required>
+            <input type='checkbox'class='check-box'><span>Remember Password</span>
+            <button type='submit'class='submit-btn'>Log in</button>
+          </form>
+          <form id='register' class='input-group-register'>
+            <input type='text'class='input-field'placeholder='First Name' required>
+            <input type='text'class='input-field'placeholder='Last Name ' required>
+            <input type='email'class='input-field'placeholder='Email' required>
+            <input type='password'class='input-field'placeholder='Enter Password' required>
+            <input type='password'class='input-field'placeholder='Confirm Password'  required>
+            <input type='checkbox'class='check-box'><span>I agree to the terms and conditions</span>
+            <button type='submit'class='submit-btn'>Register</button>
+          </form>
+        </div>
+       </div>
+  </section>
+  <!-- End Login Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/Yalla.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">A<span> Propos</span></h1>
+        <h2>Yalla Digital Communication</h2>
+        <p>Yalla Digital Communication est une agence de communication globale créée en 2022 dont la mission est de prendre en charge l’ensemble de vos besoins et problématiques de communication.
+        Yalla Digital Communication accompagne ses clients dans la conception et la mise en œuvre de leurs campagnes de communication globale : conseils en stratégies et image, création, internet, webmarketing, production audiovisuelle. 
+        Yalla Digital Communication se compose d’une équipe de jeunes dopés à la créativité qui génère la multiplication de talents de chacun d’entre nous. Des talents complémentaires, passionnés, ambitieux et sur motivés qui se réinventent chaque jour pour des projets audacieux.</p>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contacts <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+216 56 340 282</h2>
+            <h2>+216 56 340 161</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>contact@yalladigitaltunisia.com.tn</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Rue du Grand Maghreb, Dar chaabane 
+              8075- Nabeul
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>Y</span>alla <span>D</span>igital <span>T</span>unisie</h1>
+      </div>
+      <h2>Digital Communication</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/linkedin.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2023 Yalla Digital. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+  <script>
+    var x=document.getElementById('login');
+		  var y=document.getElementById('register');
+		  var z=document.getElementById('btn');
+		  function register()
+		  {
+			  x.style.left='-400px';
+			  y.style.left='50px';
+			  z.style.left='110px';
+		  }
+		  function login()
+		  {
+			  x.style.left='50px';
+			  y.style.left='450px';
+		  	z.style.left='0px';
+		  }
+  </script>  
+  <script>
+    var modal = document.getElementById('login-form');
+    window.onclick = function(event) 
+    {
+        if (event.target == modal) 
+        {
+            modal.style.display = "none";
+        }
+    }
+</script>
+</body>
+
+</html>
